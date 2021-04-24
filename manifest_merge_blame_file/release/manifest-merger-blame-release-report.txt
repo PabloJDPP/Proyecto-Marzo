@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.iniciar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:5:5-39:19
+12        android:allowBackup="true"
+12-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\INSPECTOR DMP\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:11:9-40
+19        <activity android:name="com.example.iniciar.comprobante" />
+19-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:12:9-58
+19-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:12:19-46
+20        <activity android:name="com.example.iniciar.buscarventas" />
+20-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:13:9-50
+20-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:13:19-47
+21        <activity android:name="com.example.iniciar.realventas" />
+21-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:14:9-48
+21-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:14:19-45
+22        <activity android:name="com.example.iniciar.detalleventas" />
+22-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:15:9-51
+22-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:15:19-48
+23        <activity android:name="com.example.iniciar.ventas" />
+23-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:16:9-44
+23-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:16:19-41
+24        <activity android:name="com.example.iniciar.eliminarproducto" />
+24-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:17:9-54
+24-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:17:19-51
+25        <activity android:name="com.example.iniciar.buscarproduc" />
+25-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:18:9-50
+25-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:18:19-47
+26        <activity android:name="com.example.iniciar.agregarproduc" />
+26-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:19:9-51
+26-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:19:19-48
+27        <activity android:name="com.example.iniciar.productos" />
+27-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:20:9-47
+27-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:20:19-44
+28        <activity android:name="com.example.iniciar.agregarempleados" />
+28-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:21:9-54
+28-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:21:19-51
+29        <activity android:name="com.example.iniciar.menuempleados" />
+29-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:22:9-51
+29-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:22:19-48
+30        <activity android:name="com.example.iniciar.buscarempleados" />
+30-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:23:9-53
+30-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:23:19-50
+31        <activity android:name="com.example.iniciar.searchclientes" />
+31-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:24:9-52
+31-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:24:19-49
+32        <activity android:name="com.example.iniciar.clientes" />
+32-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:25:9-46
+32-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:25:19-43
+33        <activity android:name="com.example.iniciar.buscarusuario" />
+33-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:26:9-51
+33-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:26:19-48
+34        <activity android:name="com.example.iniciar.usuarioagr" />
+34-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:27:9-48
+34-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:27:19-45
+35        <activity android:name="com.example.iniciar.searchgrup" />
+35-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:28:9-48
+35-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:28:19-45
+36        <activity android:name="com.example.iniciar.grupos" />
+36-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:29:9-44
+36-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:29:19-41
+37        <activity android:name="com.example.iniciar.autenticacion" />
+37-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:30:9-51
+37-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:30:19-48
+38        <activity android:name="com.example.iniciar.inicioActivity" />
+38-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:31:9-52
+38-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:31:19-49
+39        <activity android:name="com.example.iniciar.MainActivity" >
+39-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:32:9-38:20
+39-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:32:19-47
+40            <intent-filter>
+40-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:33:13-37:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:34:17-69
+41-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:34:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:36:17-77
+43-->C:\Users\INSPECTOR DMP\AndroidStudioProjects\Iniciar\app\src\main\AndroidManifest.xml:36:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>
