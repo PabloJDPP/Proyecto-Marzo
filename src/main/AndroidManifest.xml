@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iniciar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".comprobante"></activity>
+        <activity android:name=".buscarventas" />
+        <activity android:name=".realventas" />
+        <activity android:name=".detalleventas" />
+        <activity android:name=".ventas" />
+        <activity android:name=".eliminarproducto" />
+        <activity android:name=".buscarproduc" />
+        <activity android:name=".agregarproduc" />
+        <activity android:name=".productos" />
+        <activity android:name=".agregarempleados" />
+        <activity android:name=".menuempleados" />
+        <activity android:name=".buscarempleados" />
+        <activity android:name=".searchclientes" />
+        <activity android:name=".clientes" />
+        <activity android:name=".buscarusuario" />
+        <activity android:name=".usuarioagr" />
+        <activity android:name=".searchgrup" />
+        <activity android:name=".grupos" />
+        <activity android:name=".autenticacion" />
+        <activity android:name=".inicioActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

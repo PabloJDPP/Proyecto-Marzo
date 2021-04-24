@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inicioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="186dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/yo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido:"
+                android:textColor="@color/colorBlue"/>
+
+            <TextView
+                android:id="@+id/tv_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Bienvenido:"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre Completo  :"
+                android:textColor="@color/colorBlue"/>
+
+            <TextView
+                android:id="@+id/tv_nombre_completo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Bienvenido:"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User :"
+                android:textColor="@color/colorBlue"/>
+
+            <TextView
+                android:id="@+id/tv_correo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Bienvenido:"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_autenticacionyautorizacion"
+                android:layout_width="288dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="AUTENTICACION Y AUTORIZACION"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_clientes"
+                android:layout_width="288dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="CLIENTES"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_empleados"
+                android:layout_width="288dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="EMPLEADOS"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_productos"
+                android:layout_width="288dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="PRODUCTOS"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ventas"
+                android:layout_width="288dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="VENTAS"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_volver"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="9dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:text="VOLVER"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    
+
+</androidx.appcompat.widget.LinearLayoutCompat>

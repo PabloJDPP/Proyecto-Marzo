@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="233dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="35dp"
+       android:src="@drawable/yo" />
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp">
+
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/et_correo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="textEmailAddress"
+          android:hint="Usuario" />
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="143dp"
+       android:layout_marginTop="20dp"
+       app:passwordToggleEnabled="true">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/et_contrasena"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Contraseña"
+          android:inputType="textPassword" />
+
+      <Button
+          android:id="@+id/btn_iniciar_sesion"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="INICIAR SESION"
+          android:textStyle="bold"
+          android:textSize="20dp"
+          android:textAllCaps="false"
+          android:background="@android:color/holo_orange_light"
+
+          android:layout_marginTop="35dp"
+          android:textColor="@android:color/black"
+          />
+
+
+   </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>

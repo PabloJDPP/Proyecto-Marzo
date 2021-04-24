@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agregarempleados">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="284dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/yo" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="500dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="5dp"
+                android:text="EMPLEADOS: AGREGAR:"
+                android:textSize="12dp"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_nombreempleado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="12dp"
+                android:hint="NOMBRE COMPLETO" />
+
+
+
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:text="Sexo:"
+            android:textSize="12dp"
+            android:textStyle="bold"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/spinnersex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+
+                />
+
+
+
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_contraseconfir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="12dp"
+                android:hint="MUNICIPIO" />
+
+
+
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_telempleado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="12dp"
+                android:hint="NUMERO DE TELEFONO" />
+
+
+
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_empleadodire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="12dp"
+                android:hint="DIRECCION" />
+
+
+
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_empleadocorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="12dp"
+                android:hint="CORREO" />
+
+
+
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_grabary"
+                android:layout_width="288dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="40dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="GRABAR Y AÑADIR OTRO"
+                android:textAllCaps="false"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+            />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_regresaremple"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="-50dp"
+                android:background="@color/cardview_shadow_start_color"
+                android:text="VOLVER"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
