@@ -1,0 +1,4 @@
+#Thu Oct 22 12:31:18 CST 2020
+base.0=C\:\\Users\\INSPECTOR DMP\\AndroidStudioProjects\\Iniciar\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
